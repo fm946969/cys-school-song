@@ -63,17 +63,6 @@ function _02 () {
     _0202()
     _0203()
 }
-input.onButtonPressed(Button.A, function () {
-    music.setTempo(90)
-    _01()
-    _02()
-    _03()
-    _04()
-    _05()
-    _06()
-    _07()
-    _08()
-})
 function _0403 () {
     music.play(music.tonePlayable(247, music.beat(BeatFraction.Whole) + music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
     music.play(music.tonePlayable(277, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
@@ -181,3 +170,11 @@ function _0202 () {
     music.play(music.tonePlayable(311, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
     music.play(music.tonePlayable(311, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
 }
+_01()
+_02()
+_03()
+_04()
+_05()
+_06()
+_07()
+_08()
